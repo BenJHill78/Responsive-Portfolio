@@ -1,0 +1,127 @@
+@media only (min-width: 480px;) and (max-width: 768px;){
+	body {
+		background-image: url("../images/tree.png");
+	}
+	h1{
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	font-size: 30px;
+	max-width: 150px;
+	padding: 20px;
+}
+	h2, h3{
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	font-color: #4aaaa5;
+	border-bottom: 20px;
+	padding-top: 20px;	
+	font-size: 20px;
+}
+h4{
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	background-color: #4aaaa5;
+	padding: 5px;
+	margin-top: 120px;
+
+}
+body{
+	max-width: 960px;
+	background-image: url("../images/tree.png");
+	margin: 0 auto;
+}
+#nav{
+	background-color: #ffffff;
+	content-color: #666;
+	text-align: center;
+	float: right;
+	position: relative;
+	padding: 10px;
+}
+section{
+	font-family: 'Georgia',Times,Times New Roman,serif;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	padding: 1%;
+	overflow: auto;
+}
+#hangman{
+	background-image:  url("../images/Hangman.jpg");
+	background-size: cover;
+	float: left;
+	height: 50%;
+	width: 50%;
+	margin: 5px;
+	text-align: center;
+}
+#rpg{
+	background-image:  url("../images/RPG.jpg");
+	background-size: cover;
+	float: left;
+	height: 50%;
+	width: 50%;
+	margin: 5px;
+	text-align: center;
+}
+#trivia{
+	background-image:  url("../images/Trivia.jpg");
+	background-size: cover;
+	float: left;
+	height: 50%;
+	width: 50%;
+	margin: 5px;
+	text-align: center;
+}
+#rutgers{
+	background-image:  url("../images/Rutgers.jpg");
+	background-size: cover;
+	float: left;
+	height: 50%;
+	width: 50%;
+	margin: 5px;
+	text-align: center;
+}
+#scissors{
+	background-image:  url("../images/Scissors.jpg");
+	background-size: cover;
+	float: left;
+	height: 50%;
+	width: 50%;
+	margin: 5px;
+	text-align: center;
+}
+#social{
+	background-color: #ffffff;
+	content-color: white;
+	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
+	float: right;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+#gitimage{
+	float: left;
+	height: auto;
+}
+#linked{
+	float: left;
+	height: auto;
+}
+#stack{
+	float: left;
+	height: auto;
+}
+p{
+	font-color: #777777;
+	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
+}
+footer{
+	background-color: #666666;
+	text-align: center;
+	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: fixed;
+	border-top: 5px;
+}
+}
