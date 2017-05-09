@@ -42,9 +42,10 @@ section{
 	background-color: #ffffff;
 	border-color: #cccccc;
 	width: 70%;
-	height: 90%;
+	height: 80%;
 	float: left;
 	padding-left: 1%;
+	padding-right: 1%;
 	padding-bottom: 1%;
 }
 aside{
@@ -52,14 +53,14 @@ aside{
 	border-color: #cccccc;
 	width: 25%;
 	float: left;
-	padding-left: 1%;
+	text-align: center;
 }
 #hangman{
 	background-image:  url("../images/Hangman.jpg");
 	background-size: cover;
 	float: left;
-	width: 40%;
-	height: 40%;
+	width: 45%;
+	height: 45%;
 	margin: 1%;
 	text-align: center;
 }
@@ -67,8 +68,8 @@ aside{
 	background-image:  url("../images/RPG.jpg");
 	background-size: cover;
 	float: left;
-	width: 40%;
-	height: 40%;
+	width: 45%;
+	height: 45%;
 	margin: 1%;
 	text-align: center;
 }
@@ -76,8 +77,8 @@ aside{
 	background-image:  url("../images/Trivia.jpg");
 	background-size: cover;
 	float: left;
-	width: 40%;
-	height: 40%;
+	width: 45%;
+	height: 45%;
 	margin: 1%;
 	text-align: center;
 }
@@ -85,8 +86,8 @@ aside{
 	background-image:  url("../images/Rutgers.jpg");
 	background-size: cover;
 	float: left;
-	width: 40%;
-	height: 40%;
+	width: 45%;
+	height: 45%;
 	margin: 1%;
 	text-align: center;
 }
@@ -94,8 +95,8 @@ aside{
 	background-image:  url("../images/Scissors.jpg");
 	background-size: cover;
 	float: left;
-	width: 40%;
-	height: 40%;
+	width: 45%;
+	height: 45%;
 	margin: 1%;
 	text-align: center;
 }
@@ -135,7 +136,7 @@ footer{
 }
 @media only (min-width: 480px;) and (max-width: 650px;){
 
-body{
+#viewport{
 	width: 60%;
 	background-image: url("../images/green.png");
 	margin: auto;

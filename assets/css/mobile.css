@@ -1,7 +1,4 @@
 @media only (min-width: 480px;) and (max-width: 768px;){
-	body {
-		background-image: url("../images/tree.png");
-	}
 	h1{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #4aaaa5;
