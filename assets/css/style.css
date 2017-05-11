@@ -1,3 +1,4 @@
+		/* My Name */
 h1{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #4aaaa5;
@@ -6,6 +7,7 @@ h1{
 	max-width: 30%;
 	padding: 1%;
 }
+		/* Titles for different sections */
 h2, h3{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	font-color: #4aaaa5;
@@ -13,17 +15,20 @@ h2, h3{
 	padding-top: 5%;	
 	font-size: 100%;
 }
+		/* Titles for the Portfolio items */
 h4{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #4aaaa5;
 	padding: 5%;
 	margin-top: 60%;
 }
+		/* Main Body */
 body{
 	width: 60%;
 	background-image: url("../images/tree.png");
 	margin: auto;
 }
+		/* Navigation links to pages */
 #nav{
 	content-color: #666;
 	background-color: #ffffff;
@@ -37,24 +42,27 @@ body{
 	padding: 1%;
 	border-top: 5%;
 }
+		/* Includes main information on each page */
 section{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #ffffff;
 	border-color: #cccccc;
 	width: 70%;
 	height: 80%;
-	float: left;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 1%;
+	float: left
 }
+		/* Side info */
 aside{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	border-color: #cccccc;
 	width: 25%;
-	float: left;
 	text-align: center;
+	float: right;
 }
+		/* Hangman Game */
 #hangman{
 	background-image:  url("../images/Hangman.jpg");
 	background-size: cover;
@@ -64,6 +72,7 @@ aside{
 	margin: 1%;
 	text-align: center;
 }
+		/* RPG Game */
 #rpg{
 	background-image:  url("../images/RPG.jpg");
 	background-size: cover;
@@ -73,6 +82,7 @@ aside{
 	margin: 1%;
 	text-align: center;
 }
+		/* Trivia Game */
 #trivia{
 	background-image:  url("../images/Trivia.jpg");
 	background-size: cover;
@@ -82,6 +92,7 @@ aside{
 	margin: 1%;
 	text-align: center;
 }
+		/* Rutgers Info Widget */
 #rutgers{
 	background-image:  url("../images/Rutgers.jpg");
 	background-size: cover;
@@ -91,6 +102,7 @@ aside{
 	margin: 1%;
 	text-align: center;
 }
+		/* Rock Paper Scissors Game */
 #scissors{
 	background-image:  url("../images/Scissors.jpg");
 	background-size: cover;
@@ -100,6 +112,7 @@ aside{
 	margin: 1%;
 	text-align: center;
 }
+		/* External repository section */
 #social{
 	background-color: #ffffff;
 	content-color: white;
@@ -107,22 +120,27 @@ aside{
 	float: right;
 	padding-left: 1%;
 }
+		/* GitHub */
 #gitimage{
 	float: left;
 	height: auto;
 }
+		/* LinkedIn */
 #linked{
 	float: left;
 	height: auto;
 }
+		/* Stack Overflow */
 #stack{
 	float: left;
 	height: auto;
 }
+		/* Main Paragraph */
 p{
 	font-color: #777777;
 	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
 }
+		/* Footer */
 footer{
 	background-color: #666666;
 	text-align: center;
@@ -134,11 +152,52 @@ footer{
 	padding: 1%;
 	border-top: 5%;
 }
-@media only (min-width: 480px;) and (max-width: 650px;){
-
-#viewport{
+		/* Tablet Screens */
+@media only screen (max-width: 768px);{
+body{
 	width: 60%;
 	background-image: url("../images/green.png");
 	margin: auto;
+}
+aside{
+	clear: right;
+}
+#nav{
+	content-color: #666;
+	background-color: #ffffff;
+	text-align: right;
+	width: auto;
+	float: right;
+	padding: 5%;
+	height: auto;
+	top: 0;
+	position: top;
+	padding: 1%;
+	border-top: 2%;
+	z-index: 1;
+	max-width: 768px;
+}
+}
+		/* Phone Screens */
+@media only screen (max-width: 640px;){
+body{
+	width: 60%;
+	background-image: url("../images/linen.png");
+	margin: auto;
+}
+#nav{
+	content-color: #666;
+	background-color: #666666;
+	text-align: right;
+	width: auto;
+	float: right;
+	padding: 5%;
+	height: auto;
+	top: 0;
+	position: top;
+	padding: 1%;
+	border-top: 2%;
+	z-index: 1;
+	max-width: 640px;
 }
 }
